@@ -54,6 +54,18 @@
     align-items: center;
     filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.5));
   }
+  .fin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #logoTCG2 {
+    width: 30vw;
+    height: auto;
+    display: flex;
+    align-items: center;
+    filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.5));
+  }
   
   a {
     color: white;
