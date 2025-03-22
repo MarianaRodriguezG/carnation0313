@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banner Desplazable</title>
+    <style>
+        .banner {
+            width: 100%;
+            overflow: hidden;
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            position: relative;
+        }
+
+        .banner-text {
+            display: inline-block;
+            white-space: nowrap;
+            animation: scroll 10s linear infinite;
+        }
+
+        @keyframes scroll {
+            0% {
+                transform: translateX(100%);
+            }
+            100% {
+                transform: translateX(-100%);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="banner">
+        <div class="banner-text">¡Bienvenidos a nuestro sitio web! Disfruta de nuestras ofertas y promociones.</div>
+    </div>
+</body>
+</html>
